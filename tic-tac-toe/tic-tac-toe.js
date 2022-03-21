@@ -8,5 +8,3 @@ function resetBoard() {
     board = ['', '', '', '', '', '', '', '', ''];
     turn = 0;
 }
-
-alert(board.length);

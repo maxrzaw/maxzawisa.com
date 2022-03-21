@@ -11,6 +11,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="../assets/css/main.css" />
+	<link rel="stylesheet" href="style.css">
 	<script src="tic-tac-toe.js"></script>
 	<noscript>
 		<link rel="stylesheet" href="../assets/css/noscript.css" />
@@ -38,33 +39,30 @@
 					This is an application I made to learn a little about javascript.
 				</p>
 			</div>
-			<div>
+			<div class="board">
 				<br /><br />
 				<!-- 3*3 grid of Boxes -->
-				<input type="text" id="b1" onclick="myfunc_3(); myfunc();" readonly />
-
-				<input type="text" id="b2" onclick="myfunc_4(); myfunc();" readonly />
-
-				<input type="text" id="b3" onclick="myfunc_5(); myfunc();" readonly />
+				<div class="row">
+					<input type="text" id="b1" onclick="myfunc_3(); myfunc();" readonly />
+					<input type="text" id="b2" onclick="myfunc_4(); myfunc();" readonly />
+					<input type="text" id="b3" onclick="myfunc_5(); myfunc();" readonly />
+				</div>
 				<br /><br />
-
-				<input type="text" id="b4" onclick="myfunc_6(); myfunc();" readonly />
-
-				<input type="text" id="b5" onclick="myfunc_7(); myfunc();" readonly />
-
-				<input type="text" id="b6" onclick="myfunc_8(); myfunc();" readonly />
+				<div class="row">
+					<input type="text" id="b4" onclick="myfunc_6(); myfunc();" readonly />
+					<input type="text" id="b5" onclick="myfunc_7(); myfunc();" readonly />
+					<input type="text" id="b6" onclick="myfunc_8(); myfunc();" readonly />
+				</div>
 				<br /><br />
-
-				<input type="text" id="b7" onclick="myfunc_9(); myfunc();" readonly />
-
-				<input type="text" id="b8" onclick="myfunc_10();myfunc();" readonly />
-
-				<input type="text" id="b9" onclick="myfunc_11();myfunc();" readonly />
-
+				<div class="row">
+					<input type="text" id="b7" onclick="myfunc_9(); myfunc();" readonly />
+					<input type="text" id="b8" onclick="myfunc_10();myfunc();" readonly />
+					<input type="text" id="b9" onclick="myfunc_11();myfunc();" readonly />
+				</div>
 				<!-- Grid end here  -->
 				<br /><br /><br />
 				<!-- Button to reset game -->
-				<button id="but" onclick="myfunc_2()">RESET</button>
+				<button id="but" onclick="resetBoard()">RESET</button>
 			</div>
 		</section>
 	</div>
