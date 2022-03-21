@@ -1,61 +1,92 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Tic Tac Toe - Max Zawisa</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="../assets/css/main.css" />
-		<script src="tic-tac-toe.js"></script>
-		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
 
-		<!-- Header -->
-			<header id="header">
-				<a href="../index.html" class="title">Max Zawisa</a>
-				<nav>
-					<ul>
-						<li><a href="../index.html">Home</a></li>
-					</ul>
-				</nav>
-			</header>
+<head>
+	<title>Tic Tac Toe - Max Zawisa</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="../assets/css/main.css" />
+	<script src="tic-tac-toe.js"></script>
+	<noscript>
+		<link rel="stylesheet" href="../assets/css/noscript.css" />
+	</noscript>
+</head>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<body class="is-preload">
+	<!-- Header -->
+	<header id="header">
+		<a href="../index.html" class="title">Max Zawisa</a>
+		<nav>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+			</ul>
+		</nav>
+	</header>
 
-				<!-- Main -->
-					<section id="main" class="wrapper">
-						<div class="inner">
-							<h1 class="major">Tic Tac Toe</h1>
-							<p>This is an application I made to learn a little about javascript.</p>
-						</div>
-					</section>
-
+	<!-- Wrapper -->
+	<div id="wrapper">
+		<!-- Main -->
+		<section id="main" class="wrapper">
+			<div class="inner">
+				<h1 class="major">Tic Tac Toe</h1>
+				<p>
+					This is an application I made to learn a little about javascript.
+				</p>
 			</div>
+			<div>
+				<br /><br />
+				<!-- 3*3 grid of Boxes -->
+				<input type="text" id="b1" onclick="myfunc_3(); myfunc();" readonly />
 
-		<!-- Footer -->
-			<footer id="footer" class="wrapper alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Maxwell Zawisa 2021. All rights reserved.</li>
-						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
+				<input type="text" id="b2" onclick="myfunc_4(); myfunc();" readonly />
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+				<input type="text" id="b3" onclick="myfunc_5(); myfunc();" readonly />
+				<br /><br />
 
-	</body>
+				<input type="text" id="b4" onclick="myfunc_6(); myfunc();" readonly />
+
+				<input type="text" id="b5" onclick="myfunc_7(); myfunc();" readonly />
+
+				<input type="text" id="b6" onclick="myfunc_8(); myfunc();" readonly />
+				<br /><br />
+
+				<input type="text" id="b7" onclick="myfunc_9(); myfunc();" readonly />
+
+				<input type="text" id="b8" onclick="myfunc_10();myfunc();" readonly />
+
+				<input type="text" id="b9" onclick="myfunc_11();myfunc();" readonly />
+
+				<!-- Grid end here  -->
+				<br /><br /><br />
+				<!-- Button to reset game -->
+				<button id="but" onclick="myfunc_2()">RESET</button>
+			</div>
+		</section>
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer" class="wrapper alt">
+		<div class="inner">
+			<ul class="menu">
+				<li>&copy; Maxwell Zawisa 2021. All rights reserved.</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+
 </html>
