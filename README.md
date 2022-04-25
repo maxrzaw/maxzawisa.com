@@ -3,4 +3,4 @@ This started out as a requirement for my Game Development class in undergrad, bu
 
 The website can be found at https://maxzawisa.com
 
-![Code Wars Badge](https://www.codewars.com/users/maxrzaw/badges/micro)
+[![Code Wars Badge](https://www.codewars.com/users/maxrzaw/badges/micro)](https://www.codewars.com/users/maxrzaw)
